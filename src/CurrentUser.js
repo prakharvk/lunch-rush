@@ -5,6 +5,11 @@ import './CurrentUser.css';
 const CurrentUser = ({ user }) => {
   return (
     <div className="CurrentUser">
+      <img
+      src={user.photoURL}
+      alt={user.displayName}
+      className="CurrentUser--photo"
+      />
     </div>
   );
 };
